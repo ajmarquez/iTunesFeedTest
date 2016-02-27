@@ -14,7 +14,7 @@
 		077DA92E1A71463A008D3858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077DA92C1A71463A008D3858 /* Main.storyboard */; };
 		077DA9301A71463B008D3858 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077DA92F1A71463B008D3858 /* Images.xcassets */; };
 		077DA9331A71463B008D3858 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077DA9311A71463B008D3858 /* LaunchScreen.xib */; };
-		077DA93F1A71463B008D3858 /* PruebaTecnicaIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077DA93E1A71463B008D3858 /* PruebaTecnicaIOSTests.m */; };
+		077DA93F1A71463B008D3858 /* iTunesFeedTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077DA93E1A71463B008D3858 /* iTunesFeedTestTests.m */; };
 		27427CD41C626B250000B0C1 /* Song+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 27427CD11C626B250000B0C1 /* Song+CoreDataProperties.m */; };
 		27427CD51C626B250000B0C1 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 27427CD31C626B250000B0C1 /* Song.m */; };
 		27427CD81C62851E0000B0C1 /* SongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27427CD71C62851E0000B0C1 /* SongCell.m */; };
@@ -45,7 +45,7 @@
 		077DA9321A71463B008D3858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		077DA9381A71463B008D3858 /* iTunesFeedTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesFeedTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		077DA93D1A71463B008D3858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		077DA93E1A71463B008D3858 /* PruebaTecnicaIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PruebaTecnicaIOSTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		077DA93E1A71463B008D3858 /* iTunesFeedTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = iTunesFeedTestTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		27427CD01C626B250000B0C1 /* Song+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Song+CoreDataProperties.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		27427CD11C626B250000B0C1 /* Song+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "Song+CoreDataProperties.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		27427CD21C626B250000B0C1 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Song.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -79,8 +79,8 @@
 		077DA9131A71463A008D3858 = {
 			isa = PBXGroup;
 			children = (
-				077DA91E1A71463A008D3858 /* PruebaTecnicaIOS */,
-				077DA93B1A71463B008D3858 /* PruebaTecnicaIOSTests */,
+				077DA91E1A71463A008D3858 /* iTunesFeedTest */,
+				077DA93B1A71463B008D3858 /* iTunesFeedTest */,
 				077DA91D1A71463A008D3858 /* Products */,
 				B1B264FCB84F1687A1822F27 /* Pods */,
 				5F8AFE0380373F7E7311D674 /* Frameworks */,
@@ -96,7 +96,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		077DA91E1A71463A008D3858 /* PruebaTecnicaIOS */ = {
+		077DA91E1A71463A008D3858 /* iTunesFeedTest */ = {
 			isa = PBXGroup;
 			children = (
 				27427CC91C6269B10000B0C1 /* CodeDataStack */,
@@ -111,6 +111,7 @@
 				077DA9311A71463B008D3858 /* LaunchScreen.xib */,
 				077DA91F1A71463A008D3858 /* Supporting Files */,
 			);
+			name = iTunesFeedTest;
 			path = PruebaTecnicaIOS;
 			sourceTree = "<group>";
 		};
@@ -123,12 +124,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		077DA93B1A71463B008D3858 /* PruebaTecnicaIOSTests */ = {
+		077DA93B1A71463B008D3858 /* iTunesFeedTest */ = {
 			isa = PBXGroup;
 			children = (
-				077DA93E1A71463B008D3858 /* PruebaTecnicaIOSTests.m */,
+				077DA93E1A71463B008D3858 /* iTunesFeedTestTests.m */,
 				077DA93C1A71463B008D3858 /* Supporting Files */,
 			);
+			name = iTunesFeedTest;
 			path = PruebaTecnicaIOSTests;
 			sourceTree = "<group>";
 		};
@@ -335,7 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				077DA93F1A71463B008D3858 /* PruebaTecnicaIOSTests.m in Sources */,
+				077DA93F1A71463B008D3858 /* iTunesFeedTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
